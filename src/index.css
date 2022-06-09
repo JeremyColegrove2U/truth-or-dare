@@ -39,7 +39,7 @@
   justify-content: center;
 }
 .header {
-  width:100vw;
+  width:95vw;
   background-color:rgb(23, 23, 42);
   height:2em;
   color:rgb(190, 166, 166);
@@ -105,4 +105,12 @@ textarea {
 body {
   padding:0;
   margin:0;
+}
+
+@media screen and (max-width:1024px) {
+  .popup-container {
+    width:90%;
+    padding:1em;
+  }
+  
 }

@@ -81,7 +81,7 @@ function App() {
       <div className="header">
         Truth or Dare by Jeremy Colegrove
       </div>
-      <div className="container">
+      <div className="container buttons">
         <div className="truth-button" onClick={()=>choose(TRUTH)}>
           Pick Truth
         </div>

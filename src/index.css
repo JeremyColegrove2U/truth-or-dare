@@ -2,7 +2,9 @@
   --buttons-color: rgb(208, 198, 198);
   --buttons-color-hover: rgb(169, 143, 143);
 }
-
+.buttons {
+  justify-content: center;
+}
 .truth-button, .dare-button {
   display: flex;
   justify-content: center;
@@ -11,7 +13,7 @@
   height:2em;
   padding:1em;
   background-color:var(--buttons-color);
-  margin:2em;
+  margin:5%;
 }
 .truth-button:hover, .dare-button:hover {
   cursor: pointer;
@@ -25,10 +27,11 @@
   align-items: center;
   background-color:rgb(236, 236, 236);
   min-height:2em;
-  width:50%;
+  width:80%;
+  max-width:40em;
 }
 .padding {
-  padding-inline:10em;
+  padding-inline:10%;
 }
 
 .container {

@@ -27,6 +27,10 @@
   min-height:2em;
   width:50%;
 }
+.padding {
+  padding-inline:10em;
+}
+
 .container {
   display:flex;
   justify-content: center;
